@@ -1,0 +1,430 @@
+@charset "UTF-8";
+header {
+    height: 452px;
+    min-width: 1180px;
+}
+.menu-list>.community{
+    top: 19%;
+    left: 17%;
+    padding: 0;
+    font-size: 24px;
+    position: absolute;
+
+
+}
+.menu-list>.community a{
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+.menu-list>.community a:hover{
+    color: white;
+    cursor: pointer;
+}
+.menu-list>span>a>img:hover{
+    cursor: pointer;
+}
+.TDT{
+    width: 62%;
+    height: 80%;
+    margin-left: 19%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.TDT>h1{
+    margin: 3% 0 0 0;
+    color: #00bf00;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+.TDT>p{
+    font-size: 15px;
+    margin: 15px auto;
+    text-align: center;
+}
+.TDT>div{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.TDT>div>div{
+    width: 33%;
+    height: 49%;
+    overflow: hidden;
+    position: relative;
+}
+.shade{
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 99.2%;
+    opacity: .6;
+    position: absolute;
+}
+.shade>h2{
+    color: white;
+    margin-top: 24%;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+.shade>p{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.TDT>div>div:hover .shade{
+    cursor: pointer;
+    display: inline-block;
+}
+.TDT:nth-child(5){
+    height: 80%;
+}
+
+.TDT:nth-child(2)>div>img{
+    width: 2%;
+    height: 8%;
+    margin-top: 20%;
+    background: black;
+}
+.TDT:nth-child(2){
+    width: 100%;
+    margin-left: 0;
+    padding-top: 1px;
+    background: #f5f5f5;
+}
+footer{
+    height: 38%;
+    width: 100%;
+    background: #f5f5f5;
+}
+.right {
+    width: 20%;
+    text-align: right;
+    position: absolute;
+    top: 18%;
+    right: 10%;
+}
+
+footer>div {
+    background: #f5f5f5;
+}
+.The_tail_menu {
+    width: 70%;
+    text-align: left;
+    height: 80%;
+    position: absolute;
+    left: 19%;
+    top: 2%;
+    color: #8e8e8e;
+}
+.bleft {
+    left: 0;
+    width: 50%;
+    height: 100%;
+    font-size: 13px;
+    line-height: 4;
+    position: absolute;
+}
+.bright {
+    text-align: right;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 4;
+    position: absolute;
+}
+.bright>a>img {
+    width: 4%;
+    height: 57%;
+    margin-left: 2%;
+}
+.TDT:nth-child(4){
+    height: 89%;
+}
+.TDT:nth-child(4)>div{
+    width: 60%;
+    height: 74%;
+    margin-left: 20%;
+}
+.TDT:nth-child(4)>div>div:first-child{
+    width: 31%;
+    height: 99%;
+    position: relative;
+}
+.Mask{
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    color: white;
+    background: black;
+    padding-top: 40%;
+    position: absolute;
+}
+.Mask>span{
+    font-size: 20px;
+}
+.Mask>h1{
+    font-size: 62px;
+    margin: 20px 0;
+}
+.Mask>p{
+    margin: 0 10%;
+    width: 80%;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.TDT:nth-child(4)>div>div:last-child{
+    width: 68%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+}
+.TDT:nth-child(4)>div>div:last-child>a{
+    width: 16%;
+    height: 24%;
+}
+.TDT:nth-child(4)>div>div:last-child>a>img{
+    width: 100%;
+    height: 100%;
+    background: #09b532;
+}
+.TDT:nth-child(4)>div>div:nth-child(1)>img{
+    width: 100%;
+    height: 100%;
+}
+.TDT:nth-child(5)>p>img{
+    width: 100%;
+}
+.TDT:nth-child(5){
+    margin-left: 15%;
+    width: 70%;
+}
+.TDT:nth-child(4)>div>div:last-child>a>img:hover{
+    transition: all .5s linear;
+    transform: scale(1.1, 1.1);
+}
+.bright>a:nth-child(3)>img:last-child {
+    top: 52%;
+    right: 0.3%;
+    width: 3.5%;
+    height: 43%;
+}
+.bright>a:nth-child(2)>img:last-child {
+    top: 43%;
+    right: 6.5%;
+    height: 63%;
+}
+
+.TDT:nth-child(2)>div>div{
+    width: 50%;
+    height: 94%;
+    margin-left: 22%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 设置图片 */
+.contain .img-box {
+    width: calc(7 * 100%);
+    position: absolute;
+    left: -100%;
+    top: 0;
+    height: 90%;
+}
+.contain .img-box img {
+    width: calc(100% / 7);
+    height: 100%;
+    vertical-align: middle;
+    float: left;
+}
+
+/* 设置按钮 */
+.TDT:nth-child(2)>div>div:nth-child(2).btn-box{
+    width: 70%;
+    height: 70%;
+    margin: 0;
+    left: 15%;
+    top: 5%;
+    position: absolute;
+}
+.principal .btn-box .btn {
+    width: 32px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover !important;
+    cursor: pointer;
+    opacity: 1;
+    transition: all .15s linear;
+}
+.principal .btn-box .pre {
+    left: 0;
+    background: url(../img/arr_left.png) no-repeat center center #d6d6d6;
+}
+.principal .btn-box .nex {
+    right: 0;
+    background: url(../img/arr_right.png) no-repeat center center #d6d6d6;
+}
+.principal{
+    position: relative;
+}
+.contain>.img-box>div{
+    position: relative;
+}
+
+.TDT:nth-child(2) .br{
+    bottom: 15%;
+    right: 20%;
+    width: 17%;
+    height: 39%;
+    z-index: 101;
+    background: white;
+    position: absolute;
+}
+.cont{
+    bottom: 14%;
+    right: 20%;
+    width: 24%;
+    height: 34%;
+    z-index: 101;
+    background: white;
+    position: absolute;
+}
+.cont>div>div{
+    transition: all .5s linear;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    top: 0;
+    left: 0;
+}
+.cont>div>div>h2{
+    margin-top: 9%;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.cont>div>div>p{
+    font-size: 15px;
+    margin: 22px 10px;
+}
+.cont>div>div>span{
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #00bf00;
+    border-radius: 20px;
+}
+.cont>div>div>span>a{
+    color: black;
+}
+.cont>div>div>span>a:hover{
+    cursor: pointer;
+}
+.cont>div>div.show{
+    opacity: 1;
+}
+.TDT:nth-child(3)>div>div{
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.TDT:nth-child(3) .contain>.img-box>div {
+    width: 14%;
+    height: 100%;
+    display: flex;
+    margin: 0px 14.4%;
+    justify-content: space-between;
+}
+.events{
+    width: 34%;
+    height: 100%;
+    border: 1px solid brown;
+}
+
+.events:nth-child(1)>div{
+     height: 10%;
+     width: 100%;
+     color: black;
+     line-height: 40px;
+ }
+.events:nth-child(1)>img{
+    width: 100%;
+    height: 90%;
+}
+.events:nth-child(2)>div{
+    height: 10%;
+    width: 100%;
+    color: black;
+    line-height: 40px;
+ }
+.events:nth-child(2)>img{
+    width: 100%;
+    height: 90%;
+}
+.events:nth-child(3)>div{
+    height: 10%;
+    width: 100%;
+    color: black;
+    line-height: 40px;
+}
+.events:nth-child(3)>img{
+    width: 100%;
+    height: 90%;
+}
+.TDT:nth-child(3)>div>.pr{
+    width: 2%;
+    height: 9%;
+    margin-top: 16%;
+    background: url(../img/arr_left.png) no-repeat center center #d6d6d6;
+    background-size: cover !important;
+    cursor: pointer;
+    opacity: 1;
+    transition: all .15s linear;
+}
+.TDT:nth-child(3){
+    width: 80%;
+    margin-left: 10%;
+}
+.TDT:nth-child(3)>div>.ne{
+    width: 2%;
+    margin-top: 16%;
+    height: 10%;
+    background: url(../img/arr_right.png) no-repeat center center #d6d6d6;
+    background-size: cover !important;
+    cursor: pointer;
+    opacity: 1;
+    transition: all .15s linear;
+}
+.conta .img-box {
+    width: calc(4 * 100%);
+    position: absolute;
+    left: -100%;
+    top: 0;
+    height: 90%;
+}
+.conta .img-box>div {
+    width: calc(100% /4);
+    height: 100%;
+    vertical-align: middle;
+    float: left;
+    display: flex;
+}

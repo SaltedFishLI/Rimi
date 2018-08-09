@@ -1,0 +1,165 @@
+@charset "utf-8";
+html{
+    background: #f5f5f5;
+}
+main{
+    height: 600px;
+    width: 958px;
+    background: white;
+    margin: 0 24%;
+    border-radius: 4px;
+    border: 1px solid #d3e4e2;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 35px;
+    background: #09b532;
+    padding:0 24.5%;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+.menu{
+    width: 107px;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 15px;
+    line-height: 35px;
+    border-left: 1pt solid #bababa;
+}
+.menu>a{
+    color: white;
+}
+.menu:hover{
+    cursor: pointer;
+    background: #09a82d;
+}
+.caption {
+    width: 500px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+.logo{
+    background: url(https://id.oppo.com/resources/images/logo.png) no-repeat;
+    width: 205px;
+    height: 34px;
+    margin: 20px 30%;
+    background-size: 100% 100%;
+}
+.caption > .title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-box {
+    width: 100%;
+    height: 35px;
+    margin: 25px 330px;
+    position: relative;
+}
+
+.input-box::after {
+    display: none;
+    content: attr(data-msg);
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.error::after {
+    display: block;
+}
+
+[name="myForm"] input:not(.remember) {
+    width: 300px;
+    height: 100%;
+    border: 1px solid #d0d0d0;
+    box-sizing: border-box;
+    padding-left: 8px;
+    transition: border-color .25s linear;
+    font-size: 16px;
+}
+
+[name="myForm"] input:focus {
+    border-color: cornflowerblue;
+}
+
+.info-box {
+    font-size: 13px;
+    margin-left: 330px;
+    margin-bottom: 25px;
+}
+
+.login-register-btn {
+    display: block;
+    width: 300px;
+    height: 45px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 45px;
+    margin: 0 auto;
+    background: #09c233;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background .25s linear;
+}
+
+.login-register-btn:hover {
+    background: rgb(9, 171, 48);
+}
+
+.hidden {
+    display: none !important;
+}
+.go-register{
+    display: block;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin: 10px auto;
+    background: #e4e3dd;
+    color: #060606;
+    font-size: 17px;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: background .25s linear;
+}
+.go-register:hover {
+    background: rgb(171, 168, 163);
+}
+.footer{
+    font-size: 12px;
+    position: absolute;
+    left: 270px;
+    bottom: 70px;
+}
+
+.vficat{
+    outline: none;
+    border: deepskyblue solid 1px;
+    box-sizing: border-box;
+    transition:  all .14s linear;
+    font-size: 15px;
+}
+
+.vficat:focus{
+    border-color: greenyellow;
+}
+
+.validate-code{
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #49bf3b;
+    text-align: center;
+    border: black;
+    border: 1px solid #eee;
+    background: url("http://a.hiphotos.baidu.com/image/h%3D300/sign=c194794c7a094b36c4921ded93cd7c00/810a19d8bc3eb135c3c33028aa1ea8d3fd1f4419.jpg");
+}

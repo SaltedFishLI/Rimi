@@ -1,0 +1,593 @@
+@charset "UTF-8";
+header{
+    height: 800px;
+}
+a{
+    color: black;
+}
+.container{
+    height: 100%;
+}
+.img-box .bg {
+    overflow: hidden;
+}
+.textBox{
+    text-align: center;
+}
+.textBox>h1{
+    margin-left: 0;
+}
+.textBoxT{
+    text-align: center;
+}
+.textBoxT>h1{
+    margin-left: 0;
+}
+.white{
+    color: white;
+}
+main{
+    padding: 10px 20%;
+    height: auto;
+    background: #f4f4f4;
+}
+.mainBox{
+    width: 60%;
+    overflow: hidden;
+}
+.bigImg{
+    margin-top: 3%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img{
+    margin-top: 3%;
+    display: flex;
+    position: relative;
+}
+.img>span:last-child{
+    margin-left: 3%;
+}
+.img>span{
+    position: relative;
+    height: 100%;
+    background: white;
+}
+
+.img>span>img{
+    width: 100%;
+}
+.Imgboxs{
+    position: relative;
+    width: 1142px;
+    height: 609px;
+}
+.Imgboxs img{
+    transition: all .5s linear;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.Imgboxs img.show{
+    opacity: 1;
+}
+.imgboxs{
+    position: relative;
+    width: 553px;
+    height:583px;
+    overflow: hidden;
+}
+
+.imgboxs img{
+    transition: all .5s linear;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.imgboxs img.show{
+    opacity: 1;
+}
+
+/* 小圆点 */
+.idts-box {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.idts-box .idots {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idots::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.idts-box .idota {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idota::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .idotw {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idotw::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .idotq {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idotq::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .idote {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idote::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.idts-box .idotr {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idotr::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .idott {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idott::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .idoty {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idoty::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .idotu {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idotu::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .idoti {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #aeaeae;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.idts-box .idoti::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background: #aeaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.idts-box .show::after {
+    width: 100%;
+}
+.ba{
+    position: relative;
+}
+.tbox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    opacity: 0;
+    right: 10%;
+    top: 10%;
+}
+.tbox.show{
+    opacity: 1;
+}
+.obox{
+    position: absolute;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    left: 10%;
+    top: 10%;
+}
+.obox.show{
+    opacity: 1;
+}
+.thbox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+ }
+.thbox.show{
+    opacity: 1;
+}
+.thbox p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.thbox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.fbox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+}
+.fbox.show{
+    opacity: 1;
+}
+.fibox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+}
+.fibox.show{
+    opacity: 1;
+}
+.sbox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+}
+.sbox.show{
+    opacity: 1;
+}
+.sebox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+}
+.sebox.show{
+    opacity: 1;
+}
+.ebox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 0;
+}
+.ebox.show{
+    opacity: 1;
+}
+.nbox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 5%;
+}
+.nbox.show{
+    opacity: 1;
+}
+.tenbox{
+    position: absolute;
+    text-align: center;
+    color: black;
+    width: 100%;
+    opacity: 0;
+    bottom: 5%;
+}
+.tenbox.show{
+    opacity: 1;
+}
+
+main .idts-box{
+    top: 68%;
+    left: 50%;
+}
+.tbox a>span ,.obox a>span{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #09b532;
+}
+.tbox a>span:hover ,.obox a>span:hover{
+    background: #07631b;
+    cursor: pointer;
+}
+.mjb .idts-box{
+    top: 62%;
+    left: 32%;
+}
+.fbox p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.fbox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.fibox p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.fibox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.sbox p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.sbox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.sebox p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.sebox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.ebox p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.ebox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.nbox p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.nbox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.tenbox p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.tenbox h1{
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.tenbox p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.accessories{
+    width: 100%;
+    height:414px;
+    overflow: hidden;
+    margin-top: 3%;
+    position: relative;
+}
+.queer{
+    width: 48.5%;
+    height: 100%;
+
+}
+.smallQueer{
+    width: 47%;
+    height: 403px;
+    text-align: center;
+    background: white;
+}
+.smallQueer>img{
+    margin-top: 30%;
+}
+.headset{
+    position: absolute;
+    text-align: center;
+    top: 36%;
+    left: 4%;
+}
+.smallQuee{
+    width: 24%;
+    height: 403px;
+    text-align: center;
+    background: white;
+    left: 25%;
+}
+.smallQuee>img{
+    margin-top: 30%;
+
+}
+.headset>p{
+    font-size: 18px;
+    margin-top: 8px;
+}
+h2{
+    font-weight: normal;
+}
+h3,h4{
+    font-weight: normal;
+}
