@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+
+<body>
+    <!--表单：-->
+    <form action="javascript:;" name="myForm" method="post">
+        <p>
+            <label for="">账号：</label>
+            <input type="text" placeholder="请输入账号" maxlength="8" value="admin" size="70" readonly>
+        </p>
+        <!--密码输入框-->
+        <p>
+            <label for="">密码：</label>
+            <input type="password" placeholder="请输入密码" maxlength="16" autofocus required pattern="[0-9]" title="只能输入数字">
+        </p>
+        <!--单选-->
+        <p>
+            <label for="">性别</label>
+            <label for="male">男</label>
+            <input type="radio" name="gender" id="male" disabled>
+            <label for="female">女</label>
+            <input type="radio" name="gender" id="female" checked>
+        </p>
+        <p>
+            <span>爱好</span>
+            <label for="">唱歌</label>
+            <input type="checkbox" name="hobby" id="sing" checked>
+            <label for="">看电影</label>
+            <input type="checkbox" name="hobby" id="see" checked>
+            <label for="">敲代码</label>
+            <input type="checkbox" name="hobby" id="coding">
+            <label for="">运动</label>
+            <input type="checkbox" name="hobby" id="sport">
+        </p>
+        <!--滑条-->
+        <p>
+            <span>滑条：</span>
+            <input type="range" max="100" min="0" value="80">
+        </p>
+        <!--数值-->
+        <p>
+            <span>数值：</span>
+            <input type="number" max="100" min="0" value="80" step="10">
+        </p>
+        <!--文件上传-->
+        <p>
+            <span>文件上传</span>
+            <input type="file">
+        </p>
+        <!--颜色拾取器-->
+        <p>
+            <span>颜色</span>
+            <input type="color">
+        </p>
+        <p>
+            <span>简介:</span>
+            <textarea name="myArea" id="myArea" cols="30" rows="10" placeholder="请输入您的简介，不超过两百个字符" maxlength="200"></textarea>
+        </p>
+        <!-- 限制大小
+    table-layout：fixed -->
+        <p>
+            <span>犯困程度</span>
+
+        </p>
+        <!--分组的下拉菜单-->
+        <p>
+            <span>城市：</span>
+            <select>
+            <optgroup label="四川省">
+                <option value="0">成都</option><select name="mySelect" size="2" multiple>
+                <option value="0">略困</option>
+                <option value="1">困</option>
+                <option value="2">很困</option>
+                <option value="3">非常困</option>
+                <option value="4" selected>zzzzz</option>
+            </select>
+            <option value="1">乐山</option>
+            <option value="2">自贡</option>
+            <option value="3">内江</option>
+            </optgroup>
+            <optgroup label="重庆">
+                <option value="4">永川</option>
+                <option value="5">合川</option>
+                <option value="6">江北</option>
+                <option value="7">沙坪坝</option>
+            </optgroup>
+            </select>
+        </p>
+        <!--下拉列表-->
+        <p>
+            <input type="text" placeholder="请选择您所在的城市" list="city">
+            <datalist id="city">
+            <option value="北京"></option>
+            <option value="上海"></option>
+            <option value="西安"></option>
+            <option value="深圳"></option>
+            <option value="成都"></option>
+        </datalist>
+        </p>
+        <!--按钮-->
+        <button type="button" onclick="alert('Hello,world!')" disabled>普通按钮</button>
+        <button type="reset" hidden>重置按钮</button>
+        <button type="submit">提交按钮</button>
+    </form>
+
+    <form oninput="result.value = range.value">
+        <p>
+            <span>0</span>
+            <input id="range" type="range" max="100" min="0" value="0">
+            <span>100</span>
+            <span>滑条当前值为：</span>
+            <output for="range" name="result">0</output>
+        </p>
+    </form>
+</body>
+
+</html>

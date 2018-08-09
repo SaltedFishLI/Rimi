@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.box{
+    width: 160px;
+    height: 160px;
+    background: pink;
+    margin: 50px 0;
+    padding: 20px;
+    border: 10px solid brown; 
+}
+header,
+main,
+footer{
+    width: 75%;
+    min-width: 1100px;
+    margin: 0 auto;
+}
+
+.padding{
+    margin: 10px;
+    display: inline-block;
+    background: pink;
+    padding: 20px 50px 100px;
+}
+
+.wrap1{
+    padding: 8px;
+    border: 1px solid #888888;
+}
+
+.wrap1 section{
+    width: 120px;
+    height: 120px;
+    background: red;
+    display: inline-block;
+    margin-top: 10px;
+}
+/* 水平方向:margin取二者间距之和作为间距 */
+/*垂直方向:margin取较大者为间距 */
+.wrap1 section:first-child{
+    /* margin-bottom: 200px; */
+    margin-left: 200px;
+    /* border-radius: 70px; */
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px; 
+}
+.wrap1 section:last-child{
+    /* margin-top:300px;  */
+    margin-right: 300px;
+}
+
+.border{
+    width: 120px;
+    height: 120px;
+    margin: 50px 0;
+    background: powderblue;
+
+    border-top: 10px dashed #000000;
+    border-style: solid;
+    border-width: 20px 5px 10px 20px;
+    border-color:green;
+    border-bottom: 5px solid aquamarine;   
+}

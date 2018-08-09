@@ -1,0 +1,149 @@
+
+main {
+    margin-bottom: 100px;
+    .home_h1{
+        width: 431px;
+        height: 35px;
+        background-position: 0 0;
+        margin: 34px auto 50px;
+        background: url(../images/sprites.png) no-repeat;
+    }
+    .showimg{
+        width: 1240px;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            width: 100%;
+            height: 100%;
+            border: 1px solid #bfbfbe;
+            box-sizing: border-box;
+        }
+        .gt{
+            position: relative;
+            overflow: hidden;
+        }
+        .the-first-row{
+            #banner{
+                width:814px;
+                height:388px;
+                overflow:hidden;
+                position:relative;
+            }
+            .swiper-container {
+                width: 814px;
+                height: 388px;
+                position:absolute;
+            }  
+            .leftUp img{-webkit-animation-name:leftUp;animation-name:leftUp;}
+            @-webkit-keyframes leftUp{
+                0%{transform:scale(1.1,1.1) translate(4.545%,4.545%); }
+                100%{transform:scale(1.1,1.1)  translate(-4.545%,-4.545%);}
+            }
+            @keyframes leftUp{
+                0%{transform:scale(1.1,1.1) translate(4.545%,4.545%);}
+                100%{transform:scale(1.1,1.1)  translate(-4.545%,-4.545%);}
+            }
+        
+            .moveRight img{-webkit-animation-name:moveRight;animation-name:moveRight;}
+            @-webkit-keyframes moveRight{
+                0%{transform:scale(1.1,1.1) translate(-4.545%,0); }
+                100%{transform:scale(1.1,1.1)  translate(4.545%,0);}
+            }
+            @keyframes moveRight{
+                0%{transform:scale(1.1,1.1) translate(-4.545%,0);}
+                100%{transform:scale(1.1,1.1)  translate(4.545%,0);}
+            }
+        
+            .moveDown img{-webkit-animation-name:moveDown;animation-name:moveDown;}
+            @-webkit-keyframes moveDown{
+                0%{transform:scale(1.1,1.1) translate(0,-4.545%); }
+                100%{transform:scale(1.1,1.1)  translate(0,4.545%);}
+            }
+            @keyframes moveDown{
+                0%{transform:scale(1.1,1.1) translate(0,-4.545%);}
+                100%{transform:scale(1.1,1.1)  translate(0,4.545%);}
+            }
+        
+            .centerBig img{-webkit-animation-name:centerBig;animation-name:centerBig;}
+            @-webkit-keyframes centerBig{
+                100%{transform:scale(1.1,1.1);}
+            }
+            @keyframes centerBig{
+                100%{transform:scale(1.1,1.1);}
+            }
+        
+            .rightDownBig img{-webkit-animation-name:rightDownBig;animation-name:rightDownBig;}
+            @-webkit-keyframes rightDownBig{
+                100%{transform:scale(1.1,1.1) translate(4%,4%);}
+            }
+            @keyframes rightDownBig{
+                100%{transform:scale(1.1,1.1) translate(4%,4%);}
+            }
+            .swiper-slide img{
+                animation-duration:5s;
+                animation-timing-function:linear;
+                animation-fill-mode: forwards;
+                -webkit-animation-duration:5s;
+                -webkit-animation-timing-function:linear;
+                -webkit-animation-fill-mode: forwards;
+            }
+            .swiper-pagination{
+                bottom:20px;
+                left:80px;
+            }
+            .swiper-pagination-bullet{
+                width:20px;
+                height:20px;
+                background:#fff;
+                margin:0 5px;
+            }
+        
+            
+            .img-tfr{
+                width: 388px;
+                height: 388px;
+            }
+            .m-78{
+                padding-left: 38px;
+            }
+        }
+        .the-second-row{
+            margin-top: 38px;
+            .line{
+                width: 388px;
+                height: 814px;
+                .la{
+                    width: 388px;
+                    height: 388px;
+                }
+                .sec{
+                    margin-top: 38px;
+                }
+            }
+            .ml-78{
+                margin-left: 38px;
+            }
+        }
+        .the-thirdly-row{
+            margin-top: 38px;
+            .m_blogWin {
+                width: 100%;
+                height: 100%;
+                border: 1px solid #bfbfbe;
+            }
+            .line-b{
+                width: 814px;
+                height: 388px;
+            }
+            .ml-78{
+                margin-left: 38px;
+            }
+            .img-tfr{
+                width: 388px;
+                height: 388px;
+            }
+        }
+    }
+}
+
+

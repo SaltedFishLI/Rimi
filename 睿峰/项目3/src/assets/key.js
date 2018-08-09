@@ -1,0 +1,1 @@
+Bmob.initialize("e6c46abaa81516192fa64868d6b590f4", "b534a3fe9228deea351cf2c88f823906");

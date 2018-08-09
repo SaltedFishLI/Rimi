@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.container>section{
+    width: 260px;
+    height: 300px;
+    background: deeppink;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+.container>section:nth-child(odd){
+    background: coral;
+}
+.goBtn{
+    width: 28px;
+    height: 64px;
+    background: url('../img/Rocket.jpg');
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.goBtn:hover{
+    background-position: -28px 0;
+}

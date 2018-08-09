@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+#t1:first-letter {
+    font-size: 32px;
+    color: blue;
+}
+
+.title{
+    /*添加文本阴影*/
+    /*text-shadow:水平 垂直 模糊程度 阴影颜色*/
+    text-shadow: 10px 10px 1px yellow;
+}
+
+/*通过 :before、:after添加元素的类型为：行内元素      */
+.title:before{
+    /*内容*/
+    content: "这是通过：before添加的内容";
+    font-size: 12px;
+    /*下划线*/
+    text-decoration: underline;
+}
+
+
+.title:hover:after{
+    /*内容*/
+    content: attr(data-msg);
+    font-size: 12px;
+    /*下划线*/
+    text-decoration: underline;
+}
+
+.menu-list{
+    /*去除项目标号*/
+    list-style: none;
+    /*消除内间距*/
+    padding: 0;
+}
+
+.menu-list>li{
+    width: 110px;
+    height: 35px;
+    background: pink;
+    /*设置文本水平居中*/
+    text-align: center;
+    /*设置文本垂直居中*/
+    /*当行高等于容器高度时，如果只有一行文本，则文本垂直居中*/
+    line-height: 35px;
+    /*改变元素的显示方式/类型*/
+    display: inline-block;
+    /*修改鼠标指针*/
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-list li:first-child,
+.menu-list li:last-child,
+.menu-list li:nth-child(3){
+    color: aqua;
+}
+
+.menu-list li:not(:nth-child(3)){
+    text-decoration: underline;
+}
+
+.menu-list li::before{
+    content: url("../image/QQ图片20180403105328.jpg");
+    display: block;
+    /*width: 6px;*/
+    position: absolute;
+    left: 0;
+    top: 1px;
+    /*transform: translateY(-50%);*/
+}
+
+[name="myform"]>[type="radio"]:checked+label{
+    font-size: 36px;
+}
+
+body{
+    height: 2000px;
+}
+
+body::-webkit-scrollbar{
+    background: red;
+    width: 18px;
+}
+
+body::-webkit-scrollbar-thumb:vertical{
+    background: cyan;
+}
+
+/*修改光标的颜色*/
+[type="text"]{
+    caret-color: yellow;
+    padding-left: 8px;
+}
+/*设置占位符*/
+[type="text"]::-webkit-input-placeholder{
+    color: deeppink;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>『OPPO帐号』-登陆</title>
+    <link rel="shortcut icon" href="../favicon/bitbug_favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/LHYAlertView.css">
+    <link rel="stylesheet" href="../css/normalized.css">
+    <link rel="stylesheet" href="../css/login-register.css">
+</head>
+<body>
+<header>
+    <span class="menu"><a href="../index.html">OPPO官网</a></span>
+    <span class="menu"><a href="../subpage/community.html">OPPO社区</a></span>
+    <span class="menu"><a href="../subpage/ColorOS.html">ColorOS</a></span>
+</header>
+    <main>
+        <div class="caption">
+            <div class="logo"></div>
+            <p class="title">登录OPPO帐号可享受更多的服务
+            </p>
+        </div>
+        <form action="#" name="myForm">
+            <section class="input-box" data-msg="用户名不合法，4到16位（字母，数字，下划线，减号）">
+                <input class="username" type="text" placeholder="请输入用户名">
+            </section>
+            <section class="input-box" data-msg="密码不合法，4到16位（字母，数字，下划线，减号）">
+                <input class="password" type="password" placeholder="请输入密码">
+            </section>
+            <section class="input-box register hidden" data-msg="邮箱不合法">
+                <input class="email" type="email" placeholder="请输入邮箱">
+            </section>
+            <section class="input-box register hidden" data-msg="电话不合法">
+                <input class="tel" type="tel" placeholder="请输入电话">
+            </section>
+            <div CLASS="register hidden">
+                <input style="width: 150px;height: 35px;margin-left: 330px" class="vficat" type="search" placeholder="请输入验证码">
+                <section oncontextmenu="return false" onselectstart="return false"  class="validate-code" ></section>
+            </div>
+
+            <div class="info-box clearFix">
+                <div class="fl remember-box login">
+                    <input class="remember" type="checkbox">
+                    <span>记住密码？</span>
+                </div>
+            </div>
+            <button class="login-register-btn" type="button">登陆</button>
+            <a class=" go-register login" href="javascript:;">注册OPPO账号</a>
+        </form>
+        <p class="footer">© 2005 - 2017 OPPO 版权所有 粤ICP备14056724号-2 联系方式：4001-666-888</p>
+    </main>
+    <script src="../js/function.js"></script>
+    <script src="../js/LHYAlertView.js"></script>
+    <script src="../plugins/jquery-3.3.1.min.js"></script>
+    <script src="../plugins/bmob-min.js"></script>
+    <script src="../js/validate.js"></script>
+    <script src="../js/login-register.js"></script>
+</body>
+</html>

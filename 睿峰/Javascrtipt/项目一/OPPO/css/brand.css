@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.bg{
+    overflow: hidden;
+}
+.top{
+    margin-top: 2%;
+}
+.TextBox{
+    position: absolute;
+    text-align: center;
+    right: 31%;
+    top: 23%;
+}
+.TextBox>a>span{
+    background: #09b532;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+main .containe{
+    position: relative;
+}
+main .containe .textBoxT{
+    position: absolute;
+    top: 8%;
+    left: 40%;
+}
+main .containe .textBoxT>h1{
+    text-align: center;
+    margin-left: 0;
+}
+
+main .containe .textBoxT>p:nth-child(2){
+    text-align: center;
+}
+main .containe .textBoxT>p:nth-child(3){
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+main .containe .textBoxT>p:nth-child(3):hover{
+    color: #696969;
+    cursor: pointer;
+}
+main .containe .textBoxT>p>img{
+    width: 12px;
+}

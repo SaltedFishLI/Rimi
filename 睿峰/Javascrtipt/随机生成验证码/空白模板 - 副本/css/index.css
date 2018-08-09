@@ -1,0 +1,44 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+[name="myForm"]{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+[name="myForm"] input{
+    width: 160px;
+    height: 35px;
+    outline: none;
+    border: deepskyblue solid 1px;
+    box-sizing: border-box;
+    transition:  all .14s linear;
+    font-size: 15px;
+}
+[name="myForm"] input:focus{
+    border-color: greenyellow;
+}
+.validate-code{
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border: black;
+    border: 1px solid #eee;
+    background: linear-gradient(to bottom right,greenyellow,orange);
+}
+
+

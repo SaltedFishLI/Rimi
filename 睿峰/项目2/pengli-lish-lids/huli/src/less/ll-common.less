@@ -1,0 +1,303 @@
+body{
+    min-width: 1280px;
+}
+header{
+    min-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    .hd-box{
+        width: 65%;
+        height: 100%;
+        min-width: 1220px;
+        margin: 0 auto;
+        .bg{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-image: url(../images/panda.jpg);
+            #sell {
+                width: 219px;
+                height: 52px;
+                display: block;
+                background-position: 0 26%;
+                background-image: url('../images/sprites.png');
+            }
+            #sell:hover{
+                cursor: pointer;
+                background-position: 0% 36%;
+            }
+            #logo{
+                width: 299px;
+                height: 95px;
+                left: 39%;
+                display: block;
+                position: absolute;
+                background-position: 1% 8%;
+                background-image: url('../images/sprites.png');
+            }
+            #logo:hover{
+                cursor: pointer;
+            }
+            #login{
+                width: 111px;
+                height: 37px;
+                right: 9%;
+                top: 25%;
+                display: block;
+                position: absolute;
+                background-position: 64% 454%;
+                background-image: url('../images/sprites.png');
+            }
+            #login:hover{
+                cursor: pointer;
+                background-position: 64% 461%;
+            }
+            .biu{
+                display: inline;
+                position: absolute;
+                right: 9%;
+                top: 25%;
+                font-size: 18px;
+                
+                a{
+                    cursor: pointer;
+                    color: blue;
+                    text-decoration: underline;
+                }
+                .backsy{
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #666;
+                }
+            }
+           
+            .gapLine {
+                width: 1px;
+                height: 36px;
+                right: 8%;
+                top: 25%;
+                display: block;
+                position: absolute;
+                border-right: 2px solid #ccc;
+                margin-left: 10px;
+                display: inline-block;
+            }
+            .shopping{
+                width: 54px;
+                height: 37px;
+                right: 3%;
+                top: 25%;
+                display: block;
+                position: absolute;background-position: 6% 71%;
+                background-image: url('../images/sprites.png');
+            }
+           select{
+                top: 51%;
+                left: 44%;
+                padding: 5px 30px;
+                position: absolute;
+           }
+        }
+    }
+    .list-menu{
+        width: 100%;
+        height: 64px;
+        bottom: 0;
+        border-top:1px solid #bfbfbe;
+        border-bottom:1px solid #bfbfbe;
+        position: absolute;
+        .menu-list{
+            width: 1235px;
+            margin:0 auto;
+            display: flex;
+            justify-content: space-between;
+            .mENU-lEVEL{
+                padding: 18.5px 30px;
+                display: inline-block;
+                font-size: 18px;
+                /* 垂直对齐方式 */
+                vertical-align: top;
+                position: relative;
+                border: 1px solid transparent;
+                a {
+                    color:black;
+                    padding: 0 5px;
+                    text-decoration:none;
+                }
+                .submenu-list{
+                    position: absolute;
+                    left: -1px;
+                    top: 100%;
+                    width: 100%;
+                    z-index: 80;
+                    background: white;
+                    font-size: 14px;;
+                    display: none;
+                    border: 1px solid #bfbfbe;
+                    li{
+                        list-style-type:none;
+                        text-align: center;
+                        padding: 12px 30px;   
+                    }
+                }
+                .Search{
+                    right: 21%;
+                    bottom: 36%;
+                    width: 23px;
+                    height: 20px;
+                    position: absolute;
+                    background-position: 69% 9%;
+                    background-image: url('../images/sprites.png');
+                }
+        }
+        }
+    }
+    .menu-list:hover{
+        a:hover{
+            color: red;
+            border-bottom:1px solid red;
+        }
+        
+        .mENU-lEVEL:hover{
+                border: 1px solid #bfbfbe;
+                .submenu-list{
+                display: block;
+            }
+        }
+        .search:hover{
+            border: 1px solid transparent;
+            .Search{
+                cursor: pointer;
+                background-position: 69% 15%;
+            }
+        }
+    }
+}
+
+
+
+footer{
+    min-width: 1200px;
+    margin: 30px auto 0;
+    width: 100%;
+    position: relative;
+    background: #f0f2f3;
+    .title{
+        color: white;
+        text-align: center;
+        line-height: 76px;
+        letter-spacing: 8px;
+        font-size: 22px;
+        background: #82c353
+    }
+    .ft-box{
+        width: 46%;
+        height: 100%;
+        min-width: 773px;
+        margin: 20px auto;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+            .footer_mark-keyword{
+                width: 121px;
+                 div{
+                    width: 73%;
+                    height: 70px;
+                    font-size: 24px;
+                    margin-left: 18px;
+                    text-align: center;
+                    color: white;
+                    padding-top: 26%;
+                    background-position: 92% 27%;
+                    background-image: url('../images/sprites.png');
+                }
+            span{
+                width: auto;
+                line-height: 14px;
+                text-align: center;
+                font-size: 13px;
+                margin-top: 6px;
+                color: #999;
+            }
+        }
+    }
+    .ftmenu{
+        margin-top: 30px;
+        width: 1260px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        .addBorder{
+            border-right: 1px solid #b6b7b8;
+        }
+        .footer_info-content {
+            width: auto;
+            height: 140px;
+            min-width: 189px;
+            padding: 0 41px 0 47px;
+            box-sizing: border-box;
+            border-left: 1px solid #b6b7b8;
+            vertical-align: middle;
+            text-align: left;
+            position: relative;
+            p{
+                a{
+                    color: #666;
+                    font-size: 12px;
+                    text-decoration:none;
+                }
+                a:hover{
+                    text-decoration:underline;
+                }
+            }
+            
+        h2{
+            font-size:16px;
+            font-weight: bold;
+            margin-top: 4px;
+            margin-bottom: 14px;
+        }
+            span{
+                font-size: 12px;
+                color: #666;
+            }
+            .sina_logo-small{
+                left: 10%;
+                position: absolute;
+                width: 29px;
+                height: 30px;
+                background-position: 85% 8%;
+                    background-image: url('../images/sprites.png');
+            }
+            .sina_rqcode-small{
+                width: 84px;
+                height: 100px;
+                background-position: 70% 46%;
+                    background-image: url('../images/sprites.png');
+            }
+            .weixin_logo-small{
+                left: 10%;
+                position: absolute;
+                width: 29px;
+                height: 30px;
+                background-position: 85% 15%;
+                    background-image: url('../images/sprites.png');
+        }
+    }
+    }
+    .footer_copyright {
+        width: 712px;
+        height: 38px;
+        min-width: 712px;
+        background-color: #82c353;
+        text-align: center;
+        font: normal 15px/38px "微软雅黑";
+        color: #fff;
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+}

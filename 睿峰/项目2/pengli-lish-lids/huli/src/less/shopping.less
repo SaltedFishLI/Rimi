@@ -1,0 +1,140 @@
+@charset "utf-8";
+main{
+    width: 100%;
+    min-width: 1200px;
+}
+.shopping-content{
+    width: 1160px;
+    margin: 50px auto;
+    h1{
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    .shopping_order{
+        width: 100%;
+        table{
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            width: 1080px;
+            margin: 0 auto;
+            color: #666;
+            thead{
+                tr{
+                    text-align: center;
+                    line-height: 50px;
+                    color: #000;
+                    th{
+                        font: normal 18px/50px "微软雅黑";
+                    }
+                    
+                }
+            }
+            tbody{
+                line-height: 50px;
+                tr{
+                    border: 1px solid #ccc;
+                    text-align: center;
+                    line-height: 30px;
+                    p{
+                        font-size: 14px;
+                    }
+                    img{
+                        width: 80px;
+                        height: 50px;
+                        margin: 10px 0 0 ;
+                    }
+                    .img-thumbnail{
+                        line-height: 10px;
+                    }
+                    .order-data{
+                        width: 150px;
+                        line-height: 40px;
+                        .top{
+                            border-bottom: 1px solid #cccccc;
+                        }
+                        span{
+                            border-left: 1px solid #cccccc;
+                            margin: 0 15px;
+                        }
+                    }
+                    button{
+                        border: 0;
+                        background: white;
+                    }
+                    input{
+                        width: 50px;
+                        text-align: center;
+                    }
+                }
+                .shop-info-box{
+                    display: flex;
+                    justify-content: center;
+                    .shop-info{
+                        margin-top: 5px;
+                        margin-left: 20px;
+                        p{
+                            line-height: 10px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .summary{
+            width: 1080px;
+            height: 60px;
+            background: rgb(228, 226, 226);
+            margin: 30px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .summary-left{
+                margin-left: 50px;
+                .summary-left-number{
+                    color: #da251d;
+                    font-size: 24px;
+                    margin: 0 5px;
+                }
+            }
+            .summary-right{
+                .right-number{
+                    color: #da251d;
+                    font-size: 24px;
+                }
+                .gotoPay{
+                    width: 150px;
+                    height: 60px;
+                    border: 0;
+                    background: #da251d;
+                    margin-left: 30px;
+                    color: #fff;
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    } 
+}
+.ckb_custom{
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background: url(../images/sprites.png);
+    background-position: -412px -46px;
+}
+.ckb-checked_custom {
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background: url(../images/sprites.png);
+    background-position: -412px -100px;
+}
+.ckb-part_custom {
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    background: url(../images/sprites.png);
+    background-position: -412px -73px;
+}

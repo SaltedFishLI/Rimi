@@ -1,0 +1,38 @@
+{
+    "product":[
+        {"original_prices":"￥580","present_price":"￥480",
+        "original_pricesTwo":"￥60323","present_priceTwo":"￥59323",
+        "present_priceThree":"￥60323"}
+    ],
+    "details":[
+        {
+        "name":"沙发",
+        "goodsname":"三人位",
+        "new":"9成新以上",
+        "original_prices":"680","present_price":"580",
+        "original_pricesTwo":"￥60323","present_priceTwo":"￥59323",
+        "repertory":"5",
+        "server":"该商品在仓库，23点前完成下单可在后天（5月15日）送达/该商品在用户家中，23点前完成下单，可在（5天后）送达",
+
+        "img1":"../../images/example_10.jpg",
+        "img2":"../../images/example_6.jpg",
+        "img3":"../../images/example_7.jpg",
+        "img4":"../../images/example_8.jpg",
+        "img5":"../../images/example_9.jpg"
+        }
+],"combination":[
+    {"name":"组合产品",
+        "goodsname":"[沙发+茶几+餐桌+餐椅+床+衣柜] ",
+        "new":" 7-9成新",
+        "original_prices":"3680","present_price":"2580",
+        "original_pricesTwo":"￥60323","present_priceTwo":"￥59323",
+        "repertory":"3",
+        "server":" 该商品为用户自留，下单后5日内送达",
+        "img1":"../../images/example_10.jpg",
+        "img2":"../../images/example_6.jpg",
+        "img3":"../../images/example_7.jpg",
+        "img4":"../../images/example_8.jpg",
+        "img5":"../../images/example_9.jpg"
+    }
+]
+}

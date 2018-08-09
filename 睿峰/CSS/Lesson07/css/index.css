@@ -1,0 +1,103 @@
+@charset "UTF-8";
+.box {
+    width: 160px;
+    height: 160px;
+    margin: 8px 0 80px 8px;
+    background: red;
+    cursor: pointer;
+    /* transition: background .5s case-in 1s; */
+    /* transition: background .5s linear, border-radius .25s ease-in; */
+    transition: all .5s linear;
+}
+
+.t1:hover {
+    background: deeppink;
+    border-radius: 50%;
+}
+
+
+/* 定义一个动画 */
+
+@keyframes myAnimation {
+    /* 起始帧 */
+    from {
+        margin-left: 8px;
+    }
+    /* 结束帧 */
+    to {
+        margin-left: 600px;
+        background: blue;
+    }
+}
+
+.t2 {
+    /* animation:动画名称  持续时间 速度曲线 延迟时间 播放次数 */
+    animation: myAnimation .5s ease-in 0s infinite alternate running forwards;
+}
+
+@keyframes shine {
+    0% {
+        box-shadow: 0 0 20px 10px yellow;
+    }
+    20% {
+        box-shadow: 0 0 40px 20px green;
+    }
+    40% {
+        box-shadow: 0 0 20px 10px aqua;
+    }
+    60% {
+        box-shadow: 0 0 60px 20px red;
+    }
+    80% {
+        box-shadow: 0 0 30px 10px hotpink;
+    }
+    100% {
+        box-shadow: 0 0 50px 20px yellow;
+    }
+}
+
+.t3 {
+    animation: shine 6s linear 0s infinite alternate;
+    background: aliceblue;
+    border-radius: 50%;
+    margin-left: 500px;
+}
+
+.t4,
+.t5,
+.t6 {
+    transition: all .5s linear;
+}
+
+.t4:hover {
+    transform: translate(600px, -500px);
+}
+
+.t5:hover {
+    transform: rotateZ(180deg)
+}
+
+.t6:hover {
+    transform: scale(2, 2);
+}
+
+.wrap:hover .border {
+    transform: rotateZ(180deg)
+}
+
+.wrap:hover .mask {
+    opacity: 1
+}
+
+
+/* 浏览器兼容>>>内核前缀 
+    -webkit- Google Safari
+    -moz- Firefox
+    =ms= IE
+    -O- Opra
+*/
+
+
+/* 世界主流五大浏览器 
+火狐，谷歌，IE，Safari，Opera
+*/

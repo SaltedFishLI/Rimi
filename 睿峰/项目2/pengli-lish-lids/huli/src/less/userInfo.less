@@ -1,0 +1,441 @@
+main {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin: 0 auto;
+}
+.userInfo{
+    width: 1190px;
+    border-bottom:1px solid #ccc; 
+    margin: 50px auto;
+    .userInfo_list{
+        width: 1170px;
+        margin: 0 auto;
+        list-style: none;
+        height: 42px;
+        padding-left: 20px;
+        li{
+            display: inline-block;
+            padding: 0 10px;
+            margin-right: 60px;
+            line-height: 42px;
+            cursor: pointer;
+            font-size: 20px;
+            color: #666;
+            a{
+                font-size: 20px;
+                color: #666;
+                text-decoration: none;
+            }
+            &:hover{
+                border-bottom:2px solid red;
+                a{
+                    color: red;
+                }
+            } 
+        }  
+        .show{
+            color:red;
+            border-bottom:2px solid red;
+        }
+         
+    }
+}
+.userInfo_personInfo{
+    width: 1150px;
+    margin: 0 auto 100px;
+    label{
+        display: block;
+        margin: 30px 0 10px;
+        font-size: 18px;
+        display: block;
+    }
+    .personInfoselector{
+        margin-top: 2px;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background: url(../images/sprites.png);
+        background-position: -444px -46px;
+        top: 2px;
+        margin-right: 10px;
+   }
+   .checked{
+        background-position: -444px -74px;
+   }
+    input{
+        line-height: 30px;
+    }
+    select{
+        text-align: center;
+        padding: 8px 30px;
+        font-size: 14px;
+        color: #666;
+    }
+    .user-box-custom{ 
+        input{
+            width: 485px;
+            display: block;
+            margin:10px 0 ;
+        }
+    }
+    button{
+        width: 400px;
+        height: 60px;
+        margin: 0 auto;
+        background: #666;
+        color: white;
+        border: 0;
+        font-size: 20px;
+        display: block;
+        margin: 40px auto;
+        &:hover{
+            background: #333;
+        }
+    }
+}
+.userInfo_order{
+    margin: 40px 0;
+    width: 100%;
+    table{
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        width: 1080px;
+        margin: 0 auto;
+        color: #666;
+        thead{
+            tr{
+                line-height: 50px;
+                color: #000;
+                th{
+                    font: normal 18px/50px "微软雅黑";
+                }
+            }
+        }
+        tbody{
+            line-height: 50px;
+            tr{
+                border: 1px solid #ccc;
+                text-align: center;
+                line-height: 30px;
+                p{
+                    font-size: 14px;
+                }
+                img{
+                    width: 80px;
+                    height: 50px;
+                    margin: 10px 0 0 ;
+                }
+                .img-thumbnail{
+                    line-height: 10px;
+                }
+                .order-data{
+                    width: 150px;
+                    line-height: 40px;
+                    .top{
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    span{
+                        border-left: 1px solid #cccccc;
+                        margin: 0 15px;
+                    }
+                }
+            }
+        }
+    }
+    .order-btn-box{
+        width:400px;
+        margin: 50px auto 100px;
+        .order-btn{
+            width: 400px;
+            height: 60px;
+            border: 0;
+            color: white;
+            background: #666;
+            border-radius: 5px;
+            font-size: 30px;
+            letter-spacing: 5px;
+            &:hover{
+                background: #82c353;
+            }
+        }
+    }
+}
+.userInfo_mysell{
+    margin: 40px 0;
+    width: 100%;
+    .mysell-btn-box{
+        width: 1190px;
+        margin: 0 auto 30px;
+        .btn-mysell{
+            width: 400px;
+            height: 60px;
+            border: 0;
+            color: white;
+            background: #666;
+            border-radius: 5px;
+            font-size: 30px;
+            letter-spacing: 5px;
+            &:hover{
+                background: #82c353;
+            }
+
+        }
+    }
+    table{
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        width: 1190px;
+        margin: 0 auto;
+        color: #666;
+        thead{
+            tr{
+                line-height: 50px;
+                color: #000;
+                th{
+                    font: normal 18px/50px "微软雅黑";
+                }
+            }
+        }
+        tbody{
+            line-height: 50px;
+            tr{
+                border: 1px solid #ccc;
+                text-align: center;
+                line-height: 30px;
+                p{
+                    font-size: 14px;
+                }
+                img{
+                    width: 80px;
+                    height: 50px;
+                    margin: 10px 0 0 ;
+                }
+                .img-thumbnail{
+                    line-height: 10px;
+                }
+                .order-data{
+                    width: 150px;
+                    line-height: 40px;
+                    .top{
+                        border-bottom: 1px solid #cccccc;
+                    }
+                    span{
+                        border-left: 1px solid #cccccc;
+                        margin: 0 15px;
+                    }
+                }
+            }
+        }
+    }
+    .mysell-ctr{
+        width: 1190px;
+        margin: 10px auto 150px;
+        height: 50px;
+        p{
+            float: right;
+            color: #666;
+            font-size: 14px;
+        }
+    }
+}
+.userInfo-account{
+    width: 1190px;
+    margin: 0 auto 100px;
+    background: #dededd;
+    padding: 20px;
+    box-sizing: border-box;
+    h1{
+        font-size: 22px;
+        font-weight:400;
+        padding: 0;
+    }
+    .user-account-box{
+        width: 1150px;
+        margin: 0 auto;
+        background: white;
+        padding: 50px 80px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .account-left{
+            p{
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .account-left-number{
+                .account-left-num{
+                    font-size: 56px;
+                }
+            }
+        }
+        .account-content{
+            color: #666;
+        }
+        .account-right{
+            span{
+                color: #666;
+            }
+            a{
+                color: #008edc;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.userInfo-system{
+    width: 1190px;
+    margin: 0 auto 200px;
+    .system-box{
+        width: 1190px;
+        margin: 0 auto 50px;
+        background: #dededd;
+        padding: 20px;
+        box-sizing: border-box;
+        h1{
+            font-size: 22px;
+            font-weight:400;
+            padding: 0;
+        }
+        .user-system-box{
+            width: 1150px;
+            margin: 0 auto;
+            padding-right: 50px;
+            box-sizing: border-box;
+            .user-system-boxs{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 10px 0;
+                .systemcontent{
+                    width: 960px;
+                    background: white;
+                    box-sizing: border-box;
+                    padding: 10px 100px 10px 56px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .systemtxt{
+                        width: 654px;
+                        height: 20px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        float: right;
+                    }
+                }
+                .systemselect{
+                    width: 80px;
+                    label{
+                        display: block;
+                        .systemselector{
+                            margin-top: 2px;
+                            width: 16px;
+                            height: 16px;
+                            display: inline-block;
+                            background: url(../images/sprites.png);
+                            background-position: -444px -46px;
+                            top: 2px;
+                            margin-right: 10px;
+                       }
+                       .checked{
+                            background-position: -444px -74px;
+                       }
+                    }
+                }  
+            }
+        }
+    }
+    .systemBtn{
+        float: right;
+        width: 400px;
+        height: 60px;
+        border: 0;
+        color: white;
+        background: #838281;
+        &:hover{
+            background: #82c353;
+        }
+    }
+}
+.userInfo-reducPrice{
+    width: 1190px;
+    margin: 0 auto 100px;
+    background: #dededd;
+    padding: 20px;
+    box-sizing: border-box;
+    h1{
+        font-size: 22px;
+        font-weight:400;
+        padding: 0;
+        span{
+            color: red;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+    }
+    .user-reducPrice-box{
+        background: white;
+        width: 1150px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 40px 20px;
+        table{
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            thead{
+                line-height: 50px;
+                font: normal 18px/50px;
+            }
+            tbody{
+                tr{
+                    border: 1px solid #ccc;
+                    border-collapse: collapse;
+                }
+                .tbody-img{
+                    text-align: center;
+                    img{
+                        width: 80px;
+                        height: 50px;
+                        margin: 10px 0 0 ;
+                    }
+                    .img-thumbnail{
+                        line-height: 10px;
+                        p{
+                            font-size: 12px;
+                            color: #666;
+                        }
+                    }
+                }
+                .tbody-price{
+                    width: 900px;
+                    box-sizing: border-box;
+                    padding: 0 100px 0 200px;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 16px;
+                    .tbody-left{
+                        color: #666;
+                    }
+                    .tbody-right{
+                        color: red;
+                        line-height: 36px;
+                        label{
+                            margin-right: 20px;
+                        }
+                        input{
+                            width: 100px;
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}

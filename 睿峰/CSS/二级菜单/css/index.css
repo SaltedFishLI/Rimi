@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+.menu-list{
+    text-align: center;
+    margin: 100px 0;
+    font-size: 0;
+}
+
+.menu-list>li{
+    padding: 12px 30px;
+    background: #333333;
+    display: inline-block;
+    font-size: 18px;
+    /* 垂直对齐方式 */
+    vertical-align: top;
+    position: relative;
+}
+
+.menu-list > :not(:last-child){
+    border-right:1px solid deeppink;
+}
+.menu-list a {
+    color:white;
+}
+.submenu-list{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+.submenu-list >li{
+    background: deeppink;
+    text-align: left;
+    padding: 12px 30px;
+    border-top: 1px solid #222222;
+}
+
+/* 动画效果设计 */
+.menu-list>li:hover>.submenu-list{
+    display: block;
+}
+.menu-list li:hover{
+    background: deeppink;
+}

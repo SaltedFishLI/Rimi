@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="box t1"></div>
+    <div class="box t2"></div>
+    <div class="box t3">
+    </div>
+    <div class="box t4"></div>
+    <div class="box t5"></div>
+    <div class="box t6"></div>
+    <style>
+        @keyframes animation_1 {
+            from {
+                transform: scale(0);
+            }
+            to {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+        
+        .a1 {
+            width: 100px;
+            height: 100px;
+            background: red;
+            border-radius: 50%;
+            margin: 100px auto;
+            align-self: auto;
+            animation: animation_1 .8s ease-in-out infinite;
+        }
+    </style>
+    <div class="a1"></div>
+
+
+    <style>
+        .wrap,
+        .img,
+        .mask,
+        .border {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: relative;
+        }
+        
+        .img {
+            background-size: cover;
+            background: url("./image/xiaolizi.png")no-repeat center center;
+        }
+        
+        .mask {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, .5)
+        }
+        
+        .border {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 10px solid orange;
+            box-sizing: border-box;
+            border-left-color: purple;
+            border-top-color: purple;
+            transition: all .5s linear;
+        }
+    </style>
+    <div class="wrap">
+        <div class="img"></div>
+        <div class="mask">
+            <div>
+                <h1></h1>
+                <p></p>
+            </div>
+        </div>
+        <div class="border"></div>
+    </div>
+</body>
+
+</html>

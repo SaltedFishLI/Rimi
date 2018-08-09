@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素背景</title>
+    <link rel="stylesheet" href="css/commen.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 背景颜色 -->
+    <div style="width: 300px; height: 200px; background-color: #808080"></div>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+        
+        body {
+            /* 背景图片 */
+            background-image: url("./image/L.JPG");
+            /* 背景平铺 */
+            background-repeat: no-repeat;
+            /* 背景大小 */
+            background-size: 20% auto;
+            /* 背景定位 */
+            background-position: center center;
+        }
+    </style>
+    <!-- 雪碧图练习 -->
+    <style>
+        .sprites {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ccc;
+            margin: 50px 8px;
+            background-image: url("./image/U_%(V){UMBR6)9KD_Y]50]J.jpg");
+            background-position: -1px 63px;
+        }
+        
+        .sprites:hover {
+            background-position: -74px 63px;
+        }
+        
+        .stop {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ccc;
+            margin: 50px 8px;
+            background-image: url("./image/U_%(V){UMBR6)9KD_Y]50]J.jpg");
+            background-position: -144px 64px;
+        }
+        
+        .stop:hover {
+            background-position: -216px 63px;
+        }
+    </style>
+    <div class="sprites"></div>
+    <div class="stop"></div>
+</body>
+
+</html>

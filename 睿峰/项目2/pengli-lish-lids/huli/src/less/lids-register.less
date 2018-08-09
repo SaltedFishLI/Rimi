@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+
+main {
+    width: 400px;
+    margin: 50px auto;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font: normal 32px/140% "微软雅黑";
+    color: #333;
+}
+.mt-50 {
+    line-height: 200%;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+[name="myForm"] .input-box {
+    width: 100%;
+    height: 45px;
+    margin: 36px auto;
+    position: relative;
+}
+
+[name="myForm"] .input-box::after {
+    display: none;
+    content: attr(data-msg);
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    top: 113%;
+    right: 25px;
+}
+
+[name="myForm"] .error::after {
+    display: block;
+}
+
+[name="myForm"] input:not(.remember) {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(2, 75, 134);
+    box-sizing: border-box;
+    padding-left: 8px;
+    transition: border-color .25s linear;
+    font-size: 16px;
+}
+
+[name="myForm"] input:focus {
+    border-color: cornflowerblue;
+}
+
+[name="myForm"] .info-box {
+    font-size: 13px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+}
+
+[name="myForm"] .login-register-btn {
+    display: block;
+    width: 100%;
+    height: 64px;
+    text-align: center;
+    line-height: 45px;
+    font: normal 32px/64px "微软雅黑";
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 8px;
+    cursor: pointer;
+    transition: background .25s linear;
+    background-color: #838281;
+    border: none;
+
+
+
+    
+}
+
+[name="myForm"] .login-register-btn:hover {
+    background: rgb(17, 1, 1);
+}
+
+[name="myForm"] a {
+    color: #333;
+}
+[name="myForm"] a:hover {
+    text-decoration: underline;
+}
+
+
+[name="myForm"] .hidden {
+    display: none !important;
+}
+
+
+
+.backSY{
+    font-size: 18px;
+    color: #333;
+    right: 9%;
+    top: 28%;
+    display: block;
+    position: absolute;
+    text-decoration: none;
+}

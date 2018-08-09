@@ -1,0 +1,175 @@
+main{
+    width: 65%;
+    height: 100%;
+    min-width: 1190px;
+    margin: 0 auto;
+    .content{
+        .classify_banner {
+            width: 100%;
+            height: 245px;
+            background: url(../images/classifyBanner_1190dpi.jpg);
+            margin-top: 38px;
+            position: relative;
+            background-size:cover;
+            background-repeat: no-repeat;
+            h1 {
+                width: 100%;
+                text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+                font-weight: bold;
+                font-size: 40px;
+                color: #ffffff;
+                left: 0;
+                top: 50%;
+                position: absolute;
+                margin-top: -30px;
+                text-align: center;
+            }
+            
+            .subnav {
+                width: 88%;
+                height: 40px;
+                padding: 0 6%;
+                bottom: 12px;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                li{
+                    width: 108px;
+                    height: 40px;
+                    background-color: #838280;
+                    overflow: hidden;
+                    text-align: center;
+                   a {
+                        text-decoration: none;
+                        font-size: 20px;
+                        color: #fff;
+                        line-height: 38px
+                    }
+                }
+                li:hover{
+                    cursor: pointer;
+                    background-color: #82c353;
+                    transition: all .25s  linear;
+                }
+            }
+            .subnavs{
+                width: 93%;
+                padding: 0 4%;
+            }
+            .bed{
+                width: 56%;
+                padding: 0 21%;
+            }
+            .more{
+                width: 67%;
+                padding: 0 15%;
+            }
+        }
+        nav{
+            height: 60px;
+            margin: 10px 0 20px;
+                border-bottom: 1px solid #ccc;
+            .subhead{
+                width: 100px;
+                padding: 21.5px 30px;
+                display: inline-block;
+                font-size: 18px;
+                /* 垂直对齐方式 */
+                vertical-align: top;
+                position: relative;
+                text-align: center;
+                border: 1px solid transparent;
+                a {
+                    color:black;
+                    padding: 14px 5px;
+                    text-decoration:none;
+                }
+                ul{
+                    display: none;
+                    margin-top:30px;
+                    li{
+                        margin-top: 20px;
+                        list-style-type:none;
+                    }
+                    li:hover{
+                        color: red;
+                    }
+                }
+               
+            }
+            .subhead:hover{
+                background-color: white;
+                border: 1px solid #bfbfbe;
+                a{
+                    border-bottom:1px solid red;
+                }
+                ul{
+                    display: block;
+                    
+                } 
+            }
+        }
+        .bigBox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .box{width: 30%;
+        margin-bottom: 26px;
+        border: 3px solid transparent;
+        overflow: hidden;
+        a {  
+            color: #333;
+            text-decoration: none;
+            .goodsImg {
+                width: 366px;
+                height: 366px;
+                background-color: #acacac;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+            .goodsBaseInfo {
+                height: 64px;
+                line-height: 64px;
+                text-align: center;
+                white-space: nowrap;
+                .goodsName {
+                    font-size: 18px;
+                }
+                .goodsPrice {
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-left: 16px;
+                    .oldPrice {
+                        position: relative;
+                        .deleOldPrice {
+                            width: 110%;
+                            height: 1px;
+                            border-bottom: 2px solid #eb1212;
+                            position: absolute;
+                            top: 13px;
+                            left: -5%;
+                            -webkit-transform: rotate(10deg);
+                            -ms-transform: rotate(10deg);
+                            transform: rotate(10deg);
+                        }
+                    }
+                    .newPrice {
+                        margin-left: 16px;
+                        color: #d8170e;
+                    }
+                }
+            }
+        }
+    }
+    .box:hover {
+        background-color: #ecf2e9;
+        border: 3px solid #82c353;
+    }
+    }
+    
+    }
+    
+}

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+p {
+    width: 700px;
+    height: 380px;
+    border-radius: 5px;
+    border: 1px solid rgba(18, 5, 25, 0.67);
+    margin: 0 auto;
+    padding: 10px;
+    writing-mode: vertical-lr;
+    writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-lr;
+}
+
+.t1 {
+    border-radius: 50%;
+    outline: deeppink
+}
+
+div.wrap>section {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+section {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 50px auto;
+}
+
+section.t1 {
+    overflow: auto;
+    /*垂直方向可调整*/
+    resize: vertical;
+}
+
+.t4 {
+    background: repeating-linear-gradient(45deg, #000 0px, red 10%, blue 10%);
+}
+
+.parent {
+    border: 1px solid #808080;
+    border-radius: 5px;
+    /*移除因 inline-block 产生的间隙*/
+    /* font-size: 0;
+    -webkit-text-size-adjust: none; */
+    text-align: center;
+}
+
+.child {
+    width: 500px;
+    height: 200px;
+    background-color: #ff0000;
+    display: inline-block;
+}
+
+li {
+    display: none;
+    height: 100px;
+    width: 100px;
+    background: aqua;
+    margin-top: 10px;
+}
+
+
+/* 选择1到3的元素并显示 */
+
+li:nth-child(-n+3) {
+    display: block;
+}
