@@ -1,0 +1,30 @@
+@charset 'utf-8';
+
+.ct-list li{
+    display: flex;
+    margin:8px auto;
+    justify-content: space-between;
+}
+
+.left-box{
+    width: 30%;
+}
+
+.right-box{
+    width: 66%;
+}
+
+.ct-list img{
+    width: 100%;
+    margin-bottom:6px;
+    border-radius:5px;
+}
+
+.ct-list .title{
+    font-size:15px;
+    font-weight:bold;
+}
+
+.ct-list .tel{
+    color: rgb(199, 27, 10);
+}
